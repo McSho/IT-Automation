@@ -4,7 +4,7 @@ import os
 
 # Input and output directories
 input_dir = os.getcwd()  # Use the current working directory or inut working directory
-output_dir = "C:\\Users\\Manojlo\\Desktop\\fix_slike"  # Output directory name
+output_dir = ""  # Output directory name
 
 # Ensure the output directory exists (create it if it doesn't)
 os.makedirs(output_dir, exist_ok=True)
